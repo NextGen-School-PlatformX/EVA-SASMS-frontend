@@ -1,0 +1,104 @@
+# SASMS: Super Admin API Specification
+
+This document provides the full list of API endpoints required for the Super Admin module. All endpoints require a valid JWT token with [SuperAdmin](file:///c:/Users/felop/sasms/sasms-frontend/src/components/layout/SuperAdminNav.tsx#45-217) role in the header.
+
+## Base URL: `/api/v1/superadmin`
+
+---
+
+## 1. Dashboard & Analytics
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **Get KPIs** | `GET` | `/dashboard/kpis` | Returns system-wide counts (Students, Apps, Fees, Complaints). |
+| **Get Dept Stats** | `GET` | `/dashboard/departments` | Returns stats per department for charts. |
+| **Broadcast Msg** | `POST` | `/dashboard/broadcast` | Sends a system-wide notification. |
+
+---
+
+## 2. User & Security Governance
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **List Users** | `GET` | `/users` | Returns list of all system users with filters. |
+| **Create User** | `POST` | `/users` | Registers a new Admin, Staff, or Super Admin. |
+| **Update User** | `PUT` | `/users/:id` | Updates user details or role. |
+| **Delete User** | `DELETE` | `/users/:id` | Permanently removes a user account. |
+| **Toggle Status** | `PATCH` | `/users/:id/status` | Activates or Deactivates an account. |
+| **Reset Password** | `POST` | `/users/:id/reset-password` | Generates a temporary password or reset link. |
+
+---
+
+## 3. Departmental Governance
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **List Depts** | `GET` | `/departments` | Returns all departments with health stats. |
+| **Create Dept** | `POST` | `/departments` | Registers a new functional department. |
+| **Update Dept** | `PUT` | `/departments/:id` | Edits department name or config. |
+| **Delete Dept** | `DELETE` | `/departments/:id` | Removes a department (only if empty). |
+| **Assign Head** | `PATCH` | `/departments/:id/head` | Assigns or changes the Department Head. |
+| **Bulk Transfer** | `POST` | `/departments/transfer` | Moves students between departments. |
+
+---
+
+## 4. Admissions Supervision
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **List All Apps** | `GET` | `/admissions/applications` | Global view of all intake applications. |
+| **Override App** | `PATCH` | `/admissions/applications/:id` | Overrides a department's decision. |
+| **Export Intake** | `GET` | `/admissions/export` | Generates a system-wide CSV of admissions. |
+
+---
+
+## 5. Financial Control
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **List Fees** | `GET` | `/finances/fees` | Returns global fee category master list. |
+| **Update Fee** | `PUT` | `/finances/fees/:id` | Edits fee amount or frequency globally. |
+| **Lock Account** | `PATCH` | `/finances/accounts/:id/lock`| Locks a student's financial portal. |
+| **Financial Audit**| `GET` | `/finances/audit` | Returns logs of all fee changes. |
+
+---
+
+## 6. Complaints & Smart Routing
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **Global View** | `GET` | `/complaints` | Returns all grievances across the system. |
+| **Reassign** | `PATCH` | `/complaints/:id/route` | Moves a complaint to a different department. |
+| **Escalate** | `PATCH` | `/complaints/:id/escalate`| Raises priority to high/critical. |
+
+---
+
+## 7. Activities Control
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **List All** | `GET` | `/activities` | Returns all departmental and global events. |
+| **Approve Event** | `PATCH` | `/activities/:id/approve` | Authorizes an activity for publishing. |
+| **Suspend Event** | `PATCH` | `/activities/:id/suspend` | Halts/Cancels a published activity. |
+
+---
+
+## 8. System Settings & Audit
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **Get Settings** | `GET` | `/settings` | Returns current branding and global policies. |
+| **Update Settings**| `PUT` | `/settings` | Updates branding, academic year, or thresholds. |
+| **Login Logs** | `GET` | `/audit/logins` | Returns global authentication history. |
+| **Action Logs** | `GET` | `/audit/actions` | Returns immutable record of critical changes. |
+
+---
+
+## 9. Universal Reporting
+| Event | Method | Endpoint | Description |
+| :--- | :--- | :--- | :--- |
+| **Generate Report**| `POST`| `/reports/generate` | Triggers a server-side report generation. |
+| **List Exports** | `GET` | `/reports/exports` | Returns status/links for recent file generations. |
+
+---
+
+## Response Status Codes
+- `200 OK`: Success
+- `201 Created`: Successfully created resource
+- `400 Bad Request`: Validation error
+- `401 Unauthorized`: Missing or invalid token
+- `403 Forbidden`: Insufficient permissions (Not SuperAdmin)
+- `404 Not Found`: Resource does not exist
+- `500 Server Error`: Internal system failure
