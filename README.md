@@ -32,6 +32,24 @@ This portal serves **three completely sovereign user experiences** under one coh
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+<!-- 🖼️ Replace the src below with your actual screenshot paths or URLs -->
+<!-- Recommended: Upload screenshots to your repo under /screenshots/ then link them here -->
+
+| SuperAdmin Control Tower | Student Hub |
+|:---:|:---:|
+| ![SuperAdmin Dashboard](./screenshots/superadmin-dashboard.png) | ![Student Dashboard](./screenshots/student-dashboard.png) |
+| *Applicant leaderboard, bulk actions & doc viewer* | *Live wallet, digital ID & ticket pipeline* |
+
+> 📌 **To add your screenshots:** Create a `screenshots/` folder in the repo root, drop your images in, and the table above will render automatically.
+
+</div>
+
+---
+
 ## 💎 Design System Foundations
 
 ### 🎨 Color Language
