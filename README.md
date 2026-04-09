@@ -1,141 +1,228 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SASMS%20Core&fontSize=70&fontColor=ffffff&animation=fadeIn&desc=School%20Internal%20Operations%20Management%20System&descAlignY=70&descAlign=62" width="100%" />
-
-<br/>
-
-# 🪐 SASMS: The Future of Educational Management
-
-**An Ultra-Modern, Next-Generation Ecosystem for Unrivaled Academic Intelligence & Administration.**
-
-[![Version](https://img.shields.io/badge/Version-v2.0.0_Enterprise-ebc400?style=for-the-badge&logoColor=white)](#)
-[![Status](https://img.shields.io/badge/Status-Production_Ready-00c756?style=for-the-badge&logoColor=white)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](#)
-[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](#)
-[![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](#)
-[![Material UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)](#)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,40:112240,100:D4AF37&height=220&section=header&text=EVA-SASMS%20Frontend&fontSize=65&fontColor=ffffff&animation=fadeIn&desc=The%20Visual%20Empire%20|%20Next.js%20App%20Router%20+%20Turbopack&descAlignY=72&descAlign=50" width="100%" />
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=800&size=24&pause=1000&color=D4AF37&center=true&vCenter=true&width=800&lines=Welcome+to+the+Apex+of+Academic+Tools;Seamless+Integration;Flawless+Performance;Unlimited+Scalability" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=D4AF37&center=true&vCenter=true&width=900&lines=Zero-Latency+UI.+Imperial+Design.;Deep+Navy+%26+Gold+—+Calibrated+to+Perfection;Three+Portals.+One+Unified+Visual+Empire." alt="Typing SVG" />
 </p>
+
+<br/>
+
+[![Version](https://img.shields.io/badge/Portal-v2.0.0-D4AF37?style=for-the-badge&logo=next.js&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Live-00c756?style=for-the-badge)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-14_App_Router-000000?style=for-the-badge&logo=next.js&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![MUI](https://img.shields.io/badge/Material_UI-v5-0081CB?style=for-the-badge&logo=mui&logoColor=white)](#)
+[![Turbopack](https://img.shields.io/badge/Turbopack-⚡_Enabled-FF6154?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-## ⚡ What makes SASMS a Masterpiece?
+## 🎨 About This Portal
 
-Forget legacy systems. **SASMS (School Internal Operations Management System)** is engineered like a Fortune 500 platform—blazing fast, cryptographically secure, visually breathtaking, and infinitely scalable. It is the ultimate digital bridge between Students, Staff, and SuperAdmins.
+> **EVA-SASMS Frontend** is not just a UI — it's a **precision-engineered visual empire** built to match the power of the backend engine it commands.
 
-*   💎 **Premium Corporate UI/UX:** Breathtaking design powered by perfectly calibrated Material UI tokens (Deep Navy & Imperial Gold). Every shadow, border, and animation feels expensive.
-*   🚀 **Turbopack Powered Frontend:** Utilizing the absolute bleeding-edge of React & Next.js App Router for zero-latency page transitions.
-*   🦾 **Armor-Clad Backend:** A bulletproof Node.js Express server mapped gracefully via Prisma ORM with impenetrable JWT Role-Based Access controls.
-*   🧠 **Dynamic Intelligent Engineering:** Fields aren't hardcoded. SuperAdmins can forge multi-type relational schemas entirely via the UI that propagate globally in milliseconds.
+Every screen, shadow, token, and transition was architected with intention. The Deep Navy and Imperial Gold palette isn't aesthetic coincidence — it's a deliberate language of authority and clarity designed for high-stakes academic administration.
 
----
-
-## 🌌 Unrivaled Feature Matrix
-
-### 🎓 The Student Metaverse `(Self-Service Hub)`
-*   **The Smart Wallet:** Live tuition breakdowns, transparent payment histories, and API-ready digital gateways.
-*   **Digital Identity Cards:** Real-time verifiable academic registries, schedules, and live absence trackers.
-*   **The Command Pipeline:** Direct interactive hubs for complaints, ticketing, and administrative discourse tracking.
-*   **Admission Telemetry:** Applicants track every micro-status update. Once approved, the system automatically morphs their account into a full Student profile seamlessly.
-
-### 👑 The SuperAdmin Control Tower `(Administrative Dashboard)`
-*   **Dynamic Intelligence Builder:** Add fields natively to admission forms (Text, Dropdowns, Required Files). The database expands dynamically with them.
-*   **Algorithmic Leaderboards:** Filter, rank, and score applicants instantly using parsed Ministry, Exam, and Interview scores.
-*   **Bulk Execution Engine:** Approve 1,000 applicants or mass-schedule 500 interviews simultaneously without stressing the CPU.
-*   **The Native Viewer:** A built-in document scanner directly inside applicant draw maps allowing you to instantly assess uploads without downloading files.
+This portal serves **three completely sovereign user experiences** under one cohesive design system: a Student self-service hub, a Staff operations deck, and a SuperAdmin global control tower. All three powered by Next.js 14's App Router, turbocharged by Turbopack, and fortified by client-side route guards that terminate unauthorized sessions the instant a token fails.
 
 ---
 
-## 🏗 The Architecture Diagram
+## 💎 Design System Foundations
 
-```mermaid
-graph TD
-    %% Styling
-    classDef client fill:#000000,stroke:#D4AF37,stroke-width:2px,color:#fff;
-    classDef api fill:#112240,stroke:#64ffda,stroke-width:2px,color:#fff;
-    classDef db fill:#0d47a1,stroke:#bbdefb,stroke-width:2px,color:#fff;
-    
-    A[Next.js 14 Client<br/>Turbopack & App Router]:::client <-->|Zod Validated REST| B(Express Node API<br/>Stateless JWT):::api
-    B <-->|Prisma Engine| C[(Enterprise Database<br/>SQLite/PostgreSQL)]:::db
-    
-    subgraph Frontend Ecosystem
-    A --> D[Student App]
-    A --> E[Admin Telemetry]
-    A --> F[SuperAdmin Global Hub]
-    end
-    
-    subgraph Backend Core
-    B --> G[Role Authentication Services]
-    B --> H[Dynamic Field Scanners]
-    B --> I[Application Parsers]
-    end
+### 🎨 Color Language
+
+| Token | Hex | Role |
+|-------|-----|------|
+| `--navy-deep` | `#0a0a1a` | Primary background sovereign |
+| `--navy-mid` | `#112240` | Card surfaces & containers |
+| `--navy-light` | `#1a2a4a` | Hover states & elevated layers |
+| `--gold-imperial` | `#D4AF37` | Primary accent — actions & highlights |
+| `--gold-muted` | `#B8962E` | Secondary accent — borders & icons |
+| `--text-primary` | `#E8E8F0` | Main legible content |
+| `--text-secondary` | `#8892A4` | Metadata & secondary copy |
+| `--success` | `#00C756` | Approval & positive states |
+| `--danger` | `#FF4757` | Rejection & destructive actions |
+
+### 📐 Typography Scale
+- **Display / Headings** — `Playfair Display` (Imperial authority)
+- **Body / UI Copy** — `JetBrains Mono` / `DM Sans` (Precision clarity)
+- **Data / Tables** — `IBM Plex Mono` (Structured readability)
+
+---
+
+## 🌌 Portal Architecture — Three Sovereign Experiences
+
+### 👤 The Student Hub `/student`
+The self-service command center for enrolled students.
+
+- **📊 Live Dashboard** — Real-time GPA tracker, attendance heatmap, and upcoming schedule at a glance
+- **💳 Smart Wallet** — Itemized tuition breakdown, payment history timeline, and gateway-ready payment CTAs
+- **🪪 Digital ID Card** — Verifiable academic registry with QR-linked identity, active course list, and semester status
+- **🎫 Support Tickets** — Direct pipeline to administration: file complaints, track ticket status, receive admin responses
+- **📡 Admission Tracker** — Live micro-status feed for applicants watching every stage of their application
+
+### 🏛️ The SuperAdmin Control Tower `/admin`
+The nerve center of the entire academic institution.
+
+- **🧬 Intelligence Builder** — Add custom fields to admission forms (Text, Number, Dropdown, File) via UI; schema expands globally in real-time
+- **📈 Applicant Leaderboard** — Filterable, sortable ranking table merging Ministry, Exam, and Interview scores with one-click admission
+- **⚡ Bulk Execution Panel** — Mass-approve applicants, bulk-schedule interviews, and batch-assign staff in single atomic operations
+- **🔍 Native Document Viewer** — Review applicant uploads without downloading a single file — built-in inline PDF & image scanner
+- **📋 Analytics Telemetry** — Admission funnel metrics, acceptance ratios, and live headcount by department
+
+### 👔 The Staff Deck `/staff`
+Operational toolkit for faculty and administrative staff.
+
+- **📅 Schedule Manager** — Drag-and-drop interview calendar with conflict detection and auto-notify
+- **📝 Application Review Queue** — Structured review workflow with scoring panels and decision logging
+- **💬 Communication Hub** — Respond to student tickets and complaints with SLA-aware prioritization
+
+---
+
+## 🏗️ Project Structure
+
+```
+EVA-SASMS-frontend/
+│
+├── 📁 app/                         # Next.js 14 App Router root
+│   ├── 📁 (auth)/                  # Public routes — login, apply
+│   ├── 📁 student/                 # Student portal pages
+│   ├── 📁 admin/                   # SuperAdmin control tower
+│   ├── 📁 staff/                   # Staff operations deck
+│   ├── layout.tsx                  # Global layout + MUI theme provider
+│   └── page.tsx                    # Landing page / role router
+│
+├── 📁 components/
+│   ├── 📁 ui/                      # Atomic design system components
+│   ├── 📁 charts/                  # Data visualization widgets
+│   ├── 📁 forms/                   # Dynamic form builders
+│   └── 📁 guards/                  # RouteGuard HOCs — token enforcement
+│
+├── 📁 lib/
+│   ├── api.ts                      # Typed Axios API client
+│   ├── auth.ts                     # JWT decode + role utilities
+│   └── theme.ts                    # MUI theme: Deep Navy × Imperial Gold
+│
+├── 📁 hooks/                       # Custom React hooks (useAuth, useWallet...)
+├── 📁 types/                       # Global TypeScript interfaces & enums
+├── .env.example                    # Environment variables template
+├── next.config.ts                  # Next.js config (Turbopack enabled)
+└── tsconfig.json
 ```
 
 ---
 
-## 🚀 Ignition Sequence (Getting Started)
+## 🚀 Launch Sequence
 
-Experience SASMS instantaneously. Our setup is engineered to be developer-friendly.
+### Prerequisites
 
-### ⚙️ Stage 1: The Core Backend
-Boot up the engine that drives SASMS data.
+| Tool | Min Version |
+|------|-------------|
+| Node.js | `v18+` |
+| npm | `v9+` |
+| EVA-SASMS Backend | Running on `localhost:5001` |
 
-```shell
-cd backend
+### ⚡ Cold Start
 
-# 📦 Install architectural dependencies
+```bash
+# Step 1 — Navigate into the portal
+cd EVA-SASMS-frontend
+
+# Step 2 — Install UI/UX infrastructure
 npm install
 
-# 🗄️ Forge the synchronized schema and generate types
-npx prisma db push
-npx prisma generate
-
-# 🚀 Launch the local enterprise engine at Port 5001
-npm run dev
-```
-
-### 🖥️ Stage 2: The Frontend Portal
-Ignite the zero-latency user interface.
-
-```shell
-cd sasms-frontend
-
-# 📦 Install UI/UX infrastructure
-npm install
-
-# 🌍 Clone the local environment mapping
+# Step 3 — Configure environment
 cp .env.example .env.local
+# Then edit .env.local with your backend URL
 
-# ⚡ Ignite Turbopack Developer Server at Port 3000
+# Step 4 — Ignite the Turbopack dev server 🚀
 npm run dev
+```
+
+> Portal launches at **`http://localhost:3000`**
+
+---
+
+## 🔧 Environment Variables
+
+Edit `.env.local` after copying from `.env.example`:
+
+```env
+# Backend API base URL
+NEXT_PUBLIC_API_URL=http://localhost:5001/api
+
+# App name displayed in UI
+NEXT_PUBLIC_APP_NAME=SASMS
+
+# Optional: Analytics / monitoring endpoint
+NEXT_PUBLIC_ENV=development
 ```
 
 ---
 
-## 🔐 The Key To The Kingdom
-Upon initial hydration, launch into the SuperAdmin portal with these Master Credentials:
+## 🛡️ Client-Side Security Model
 
-*   **Email:** `admin.super@sasms.edu`
-*   **Passcode:** `123456`
+```
+┌──────────────────────────────────────────────────────────┐
+│              FRONTEND SECURITY ARCHITECTURE               │
+├──────────────────────────────────────────────────────────┤
+│  RouteGuard HOC  │ Validates JWT on every route mount    │
+│  Role Resolver   │ Maps token role → permitted pages     │
+│  Token Expiry    │ Auto-logout on expiration detection   │
+│  XSS Shields     │ DOMPurify + Next.js CSP headers       │
+│  API Interceptor │ Axios auto-injects auth header        │
+└──────────────────────────────────────────────────────────┘
+```
+
+Every protected route is wrapped in a `<RouteGuard role="SUPER_ADMIN">` (or the relevant role). The moment a token signature fails or a role mismatch is detected, the user is **immediately redirected** to the login screen — no partial render, no data flash.
 
 ---
 
-## 🛡 Security & Compliance Oath
-SASMS does not compromise. Every byte in transit is safeguarded:
-- **Zero-Trust Access:** Frontend `RouteGuards` instantly sever connections to restricted modules if token privileges fail.
-- **Mutant Defense Validation:** `Zod` rigidly inspects every incoming payload, dropping non-conforming parameters natively.
-- **File Shielding:** Extracted custom documents are isolated dynamically, fully preventing XSS execution in administrative hubs.
+## 🧪 Development Commands
 
-<br/>
+```bash
+npm run dev          # Start Turbopack dev server (hot reload at localhost:3000)
+npm run build        # Production build with Next.js optimization
+npm run start        # Serve the production build locally
+npm run lint         # ESLint + TypeScript strict type check
+```
+
+---
+
+## 📸 Portal Visual Map
+
+```
+/                    → Auto-detect role → redirect to correct portal
+/login               → Unified auth entry (role determined by backend)
+/apply               → Public applicant form (dynamic fields rendered)
+
+/student/dashboard   → Live metrics, schedule, wallet snapshot
+/student/wallet      → Full payment history + tuition breakdown
+/student/id          → Digital identity card with QR
+/student/tickets     → Complaint & support ticket hub
+
+/admin/dashboard     → Institution-wide telemetry
+/admin/applicants    → Leaderboard + bulk actions + doc viewer
+/admin/fields        → Dynamic field schema builder
+/admin/interviews    → Schedule management
+/admin/students      → Enrolled student management
+
+/staff/queue         → Application review + scoring
+/staff/schedule      → Interview calendar
+/staff/tickets       → Student support responses
+```
+
+---
 
 <div align="center">
-  <h3>Built for those who demand nothing but the absolute best. Welcome to SASMS. 🌌</h3>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+
+**EVA-SASMS Frontend** — *Where data becomes experience. Where authority becomes design.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4AF37,100:0a0a0f&height=100&section=footer" width="100%" />
+
 </div>
