@@ -39,10 +39,10 @@ This portal serves **three completely sovereign user experiences** under one coh
 <!-- 🖼️ Replace the src below with your actual screenshot paths or URLs -->
 <!-- Recommended: Upload screenshots to your repo under /screenshots/ then link them here -->
 
-| SuperAdmin Control Tower | Student Hub |
+| Home / Landing Page | Attendance System |
 |:---:|:---:|
-| ![SuperAdmin Dashboard](./screenshots/superadmin-dashboard.png) | ![Student Dashboard](./screenshots/student-dashboard.png) |
-| *Applicant leaderboard, bulk actions & doc viewer* | *Live wallet, digital ID & ticket pipeline* |
+| ![Home Page](./screenshots/superadmin-dashboard.png.png) | ![Attendance Page](./screenshots/qr.png |
+| *Main entry, overview & navigation* | *Track attendance, sessions & student presence* |
 
 > 📌 **To add your screenshots:** Create a `screenshots/` folder in the repo root, drop your images in, and the table above will render automatically.
 
