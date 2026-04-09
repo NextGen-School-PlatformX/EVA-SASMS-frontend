@@ -41,7 +41,7 @@ This portal serves **three completely sovereign user experiences** under one coh
 
 | Home / Landing Page | Attendance System |
 |:---:|:---:|
-| ![Home Page](./screenshots/superadmin-dashboard.png.png) | ![Attendance Page](./screenshots/qr.png |
+| ![Home Page](./screenshots/superadmin-dashboard.png.png) | ![Attendance Page](./screenshots/qr.png) |
 | *Main entry, overview & navigation* | *Track attendance, sessions & student presence* |
 
 > 📌 **To add your screenshots:** Create a `screenshots/` folder in the repo root, drop your images in, and the table above will render automatically.
